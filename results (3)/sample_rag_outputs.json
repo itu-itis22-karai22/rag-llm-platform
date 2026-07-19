@@ -1,0 +1,57 @@
+[
+  {
+    "sample_id": 1,
+    "question": "What is quantization and why is it important?",
+    "retrieved_context": "Quantization reduces model weights from high precision to lower precision (e.g., 4-bit) to save memory and improve efficiency.\n\nModel quantization is reducing the precision of weights to lower-bit formats.\n\nOne disadvantage of quantization is a slight reduction in accuracy.",
+    "generated_answer": "Quantization reduces model weights from high precision to lower precision to save memory and improve efficiency.",
+    "source_documents": [
+      "Quantization reduces model weights from high precision to lower precision (e.g., 4-bit) to save memory and improve efficiency.",
+      "Model quantization is reducing the precision of weights to lower-bit formats.",
+      "One disadvantage of quantization is a slight reduction in accuracy."
+    ]
+  },
+  {
+    "sample_id": 2,
+    "question": "How does RAG improve language model performance?",
+    "retrieved_context": "RAG combines document retrieval with a language model to produce more accurate responses.\n\nRAG can be used in chatbots to provide up-to-date factual answers by retrieving documents.\n\nA large language model is a large neural network trained on massive text corpora to understand and generate language.",
+    "generated_answer": "RAG provides more accurate answers by retrieving documents.",
+    "source_documents": [
+      "RAG combines document retrieval with a language model to produce more accurate responses.",
+      "RAG can be used in chatbots to provide up-to-date factual answers by retrieving documents.",
+      "A large language model is a large neural network trained on massive text corpora to understand and generate language."
+    ]
+  },
+  {
+    "sample_id": 3,
+    "question": "What is the difference between fine-tuning and transfer learning?",
+    "retrieved_context": "The difference between pretraining and fine-tuning: pretraining teaches general language patterns, fine-tuning adapts to specific tasks.\n\nFine-tuning is adapting a pre-trained model to a smaller, task-specific dataset.\n\nThe advantage of LoRA in fine-tuning is that it significantly reduces the number of trainable parameters, making training faster and more efficient.",
+    "generated_answer": "Fine-tuning adapts a model to a task, while transfer learning is using a pre-trained model in a new task.",
+    "source_documents": [
+      "The difference between pretraining and fine-tuning: pretraining teaches general language patterns, fine-tuning adapts to specific tasks.",
+      "Fine-tuning is adapting a pre-trained model to a smaller, task-specific dataset.",
+      "The advantage of LoRA in fine-tuning is that it significantly reduces the number of trainable parameters, making training faster and more efficient."
+    ]
+  },
+  {
+    "sample_id": 4,
+    "question": "Explain the role of embeddings in vector search.",
+    "retrieved_context": "Embeddings transform text into vectors so that semantically similar queries and documents are close in vector space.\n\nEmbeddings are vector representations of text that capture semantic meaning.\n\nAn embedding model converts text into dense numerical vectors that preserve meaning.",
+    "generated_answer": "Embeddings enable semantic similarity search by finding vectors near query vectors.",
+    "source_documents": [
+      "Embeddings transform text into vectors so that semantically similar queries and documents are close in vector space.",
+      "Embeddings are vector representations of text that capture semantic meaning.",
+      "An embedding model converts text into dense numerical vectors that preserve meaning."
+    ]
+  },
+  {
+    "sample_id": 5,
+    "question": "What are the advantages of using ChromaDB?",
+    "retrieved_context": "The benefit of using ChromaDB over a traditional database is that it is optimized for vector similarity search.\n\nChromaDB is a vector database for storing and retrieving embeddings.\n\nChromaDB stores embeddings and returns the most relevant documents for a query.",
+    "generated_answer": "It is optimized for vector similarity search.",
+    "source_documents": [
+      "The benefit of using ChromaDB over a traditional database is that it is optimized for vector similarity search.",
+      "ChromaDB is a vector database for storing and retrieving embeddings.",
+      "ChromaDB stores embeddings and returns the most relevant documents for a query."
+    ]
+  }
+]

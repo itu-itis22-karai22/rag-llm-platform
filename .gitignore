@@ -1,0 +1,45 @@
+# Secrets / tokens
+llm_token.txt
+.env
+*token*.txt
+!llm_token_example.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model / training artifacts
+checkpoints/
+*.bin
+*.safetensors
+*.pt
+*.gguf
+outputs/
+runs/
+
+# ChromaDB persistence
+chroma_db/
+*.sqlite3
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Kaggle / Colab
+.kaggle/
+
+
+results/gemma_3_finetuned_final/
+results/outputs/
+results/unsloth_compiled_cache/
+*.safetensors
+

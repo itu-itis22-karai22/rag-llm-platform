@@ -1,0 +1,199 @@
+{"instruction": "What is quantization in large language models?", "response": "Quantization reduces model weights from high precision to lower precision (e.g., 4-bit) to save memory and improve efficiency."}
+{"instruction": "What is one advantage of quantization?", "response": "One advantage of quantization is reduced GPU memory requirements."}
+{"instruction": "What is one disadvantage of quantization?", "response": "One disadvantage of quantization is a slight reduction in accuracy."}
+{"instruction": "What is 8-bit quantization?", "response": "8-bit quantization offers better accuracy with moderate memory savings."}
+{"instruction": "What is 4-bit quantization?", "response": "4-bit quantization saves more memory but may reduce accuracy slightly."}
+{"instruction": "Who developed Gemma?", "response": "Gemma was developed by Google."}
+{"instruction": "What is RAG in large language models?", "response": "RAG combines document retrieval with a language model to produce more accurate responses."}
+{"instruction": "What is retrieval in the context of RAG?", "response": "Retrieval is the process of finding relevant documents based on a query."}
+{"instruction": "What is the role of ChromaDB in RAG?", "response": "ChromaDB stores embeddings and returns the most relevant documents for a query."}
+{"instruction": "What is one use case of RAG?", "response": "RAG can be used in chatbots to provide up-to-date factual answers by retrieving documents."}
+{"instruction": "What is LoRA in fine-tuning?", "response": "LoRA is Low-Rank Adaptation, a parameter-efficient fine-tuning method."}
+{"instruction": "What is the difference between pretraining and fine-tuning?", "response": "Pretraining teaches general language patterns, fine-tuning adapts to specific tasks."}
+{"instruction": "What is the main benefit of LoRA?", "response": "The advantage of LoRA in fine-tuning is that it significantly reduces the number of trainable parameters, making training faster and more efficient."}
+{"instruction": "What are embeddings?", "response": "Embeddings are vector representations of text that capture semantic meaning."}
+{"instruction": "What is an embedding model?", "response": "An embedding model converts text into dense numerical vectors that preserve meaning."}
+{"instruction": "What is one use case of embeddings?", "response": "Embeddings can be used to search for semantically similar documents."}
+{"instruction": "What is a vector database?", "response": "A vector database stores high-dimensional vectors and allows similarity search."}
+{"instruction": "What is ChromaDB?", "response": "ChromaDB is a vector database for storing and retrieving embeddings."}
+{"instruction": "What is LangChain?", "response": "LangChain is a framework to build applications powered by language models."}
+{"instruction": "What is instruction tuning?", "response": "Instruction tuning improves a model's ability to follow human-written instructions."}
+{"instruction": "What is the advantage of ChromaDB over traditional databases?", "response": "The benefit of using ChromaDB over a traditional database is that it is optimized for vector similarity search."}
+{"instruction": "What are multilingual embeddings?", "response": "The advantage of multilingual embeddings is enabling cross-language semantic search and retrieval."}
+{"instruction": "How do embeddings enable semantic search?", "response": "Embeddings transform text into vectors so that semantically similar queries and documents are close in vector space."}
+{"instruction": "What is a large language model (LLM)?", "response": "A large language model is a large neural network trained on massive text corpora to understand and generate language."}
+{"instruction": "What is knowledge distillation?", "response": "Knowledge distillation is transferring knowledge from a large teacher model to a smaller student model."}
+{"instruction": "What is knowledge grounding in LLMs?", "response": "Knowledge grounding in LLMs means connecting model outputs to reliable external data sources for factual accuracy."}
+{"instruction": "What is perplexity?", "response": "Perplexity measures how well a language model predicts text."}
+{"instruction": "What is a token in NLP?", "response": "A token is a unit of text, such as a word or subword, used by language models."}
+{"instruction": "What is a context window?", "response": "Context window is the maximum amount of text the model can process at once."}
+{"instruction": "What is instruction-response data?", "response": "Instruction-response data is a dataset of commands and their expected outputs."}
+{"instruction": "What does context length affect?", "response": "Context length determines how much text the model can consider at once, affecting reasoning and memory."}
+{"instruction": "What is overfitting?", "response": "Overfitting happens when a model memorizes the training data instead of generalizing."}
+{"instruction": "What is gradient descent?", "response": "Gradient descent is an optimization algorithm used to minimize loss functions."}
+{"instruction": "What is backpropagation?", "response": "Backpropagation is the algorithm used to update weights in a neural network."}
+{"instruction": "What is softmax?", "response": "Softmax converts logits into probabilities that sum to 1."}
+{"instruction": "What is supervised learning?", "response": "Supervised learning is training a model with labeled input-output pairs."}
+{"instruction": "What is unsupervised learning?", "response": "Unsupervised learning is training without labeled data, focusing on discovering patterns."}
+{"instruction": "What is reinforcement learning?", "response": "Reinforcement learning trains models based on rewards and penalties."}
+{"instruction": "What is the role of an optimizer?", "response": "An optimizer updates model parameters to minimize the loss function."}
+{"instruction": "What is a dataset?", "response": "A dataset is a structured collection of data used for training or evaluation."}
+{"instruction": "What is inference in deep learning?", "response": "Inference is the process of using a trained model to make predictions on new data."}
+{"instruction": "What is few-shot learning?", "response": "Few-shot learning is when a model learns to perform tasks from only a few labeled examples."}
+{"instruction": "What are evaluation metrics?", "response": "Evaluation metrics provide quantitative ways to measure how well a model performs on specific tasks."}
+{"instruction": "What is the Adam optimizer?", "response": "The role of an optimizer like Adam is to adjust model weights efficiently using adaptive learning rates to minimize the loss function."}
+{"instruction": "What is a transformer?", "response": "A transformer is a neural network architecture based on self-attention mechanisms."}
+{"instruction": "What is pruning in neural networks?", "response": "Pruning removes unnecessary weights or neurons to make a model smaller and faster."}
+{"instruction": "What is an epoch?", "response": "An epoch is one full pass through the entire training dataset."}
+{"instruction": "What is dropout?", "response": "Dropout randomly deactivates neurons during training to reduce overfitting."}
+{"instruction": "What is batch gradient descent?", "response": "Batch gradient descent updates weights using the entire dataset, while stochastic gradient descent updates per sample."}
+{"instruction": "What is the vanishing gradient problem?", "response": "The vanishing gradient problem occurs when gradients shrink too much, hindering deep network training."}
+{"instruction": "What is a learning rate scheduler?", "response": "A learning rate scheduler dynamically changes the learning rate to improve training convergence."}
+{"instruction": "What is convolution in CNNs?", "response": "Convolution is a mathematical operation that applies filters to input images to detect features such as edges or textures."}
+{"instruction": "What is max pooling?", "response": "Max pooling reduces the spatial dimensions of feature maps by keeping only the maximum value in each region."}
+{"instruction": "Explain data augmentation in computer vision.", "response": "Data augmentation generates variations of training images, such as flips or rotations, to improve generalization."}
+{"instruction": "What is the purpose of object detection?", "response": "Object detection identifies and localizes objects within an image using bounding boxes."}
+{"instruction": "What is semantic segmentation?", "response": "Semantic segmentation assigns a class label to each pixel in an image."}
+{"instruction": "What is the difference between classification and detection?", "response": "Classification predicts a single label for an image, while detection finds and classifies multiple objects within it."}
+{"instruction": "What is transfer learning in computer vision?", "response": "It is reusing a model trained on a large dataset, such as ImageNet, for a new vision task."}
+{"instruction": "What is the role of CNN filters?", "response": "Filters detect visual patterns like edges, corners, or textures in images."}
+{"instruction": "What is YOLO in computer vision?", "response": "YOLO (You Only Look Once) is a real-time object detection algorithm."}
+{"instruction": "What is the difference between instance segmentation and semantic segmentation?", "response": "Instance segmentation distinguishes between individual objects, while semantic segmentation groups all objects of the same class together."}
+{"instruction": "What is non-maximum suppression (NMS)?", "response": "NMS removes overlapping bounding boxes to keep only the most confident detections."}
+{"instruction": "What is optical flow?", "response": "Optical flow estimates the motion of objects between consecutive frames in a video."}
+{"instruction": "What is feature extraction in vision models?", "response": "It is the process of transforming raw images into useful representations for recognition or classification."}
+{"instruction": "What is image classification?", "response": "It is the task of predicting the category of an image from a predefined set of classes."}
+{"instruction": "What is a bounding box?", "response": "A bounding box is a rectangle used to localize objects in an image."}
+{"instruction": "What is the purpose of image preprocessing?", "response": "It improves image quality and model performance by resizing, normalizing, or denoising images."}
+{"instruction": "What is a confusion matrix in vision tasks?", "response": "It is a table that shows the performance of a classification model by comparing predictions with actual labels."}
+{"instruction": "What is super-resolution?", "response": "Super-resolution is the process of enhancing the resolution of an image using deep learning models."}
+{"instruction": "What is the difference between precision and recall in detection?", "response": "Precision measures accuracy of positive detections, while recall measures how many true objects were found."}
+{"instruction": "What is a vision transformer (ViT)?", "response": "A Vision Transformer is a model that applies transformer architectures directly to image patches instead of using convolutions."}
+{"instruction": "What is K-means clustering?", "response": "K-means clustering is an unsupervised algorithm that groups data into K clusters by minimizing intra-cluster variance."}
+{"instruction": "What is association rule mining?", "response": "Association rule mining discovers interesting relationships among variables in large datasets, such as market basket analysis."}
+{"instruction": "What is the Apriori algorithm?", "response": "The Apriori algorithm is used to find frequent itemsets and generate association rules."}
+{"instruction": "What is classification in data mining?", "response": "Classification assigns items in a dataset to predefined categories or classes."}
+{"instruction": "What is regression in data mining?", "response": "Regression is used to predict continuous values based on input features."}
+{"instruction": "What is anomaly detection?", "response": "Anomaly detection identifies rare or unusual patterns that do not conform to expected behavior."}
+{"instruction": "What is a decision tree?", "response": "A decision tree is a supervised learning model that splits data into branches to make predictions."}
+{"instruction": "What is clustering?", "response": "Clustering is grouping similar data points together without predefined labels."}
+{"instruction": "What is dimensionality reduction?", "response": "Dimensionality reduction reduces the number of input variables while preserving essential information, e.g., PCA."}
+{"instruction": "What is feature selection?", "response": "Feature selection chooses the most important variables for building predictive models."}
+{"instruction": "What is data preprocessing in data mining?", "response": "Data preprocessing involves cleaning, transforming, and normalizing raw data before analysis."}
+{"instruction": "What is OLAP in databases?", "response": "OLAP (Online Analytical Processing) enables complex analytical queries and reporting on large datasets."}
+{"instruction": "What is normalization in databases?", "response": "Normalization is the process of organizing data to reduce redundancy and improve integrity."}
+{"instruction": "What is a primary key?", "response": "A primary key is a unique identifier for records in a database table."}
+{"instruction": "What is a foreign key?", "response": "A foreign key is a field in one table that links to the primary key of another table."}
+{"instruction": "What is SQL?", "response": "SQL (Structured Query Language) is used to manage and query relational databases."}
+{"instruction": "What is a join in SQL?", "response": "A join combines rows from two or more tables based on a related column."}
+{"instruction": "What is indexing in databases?", "response": "Indexing improves the speed of data retrieval operations in a database."}
+{"instruction": "What is a transaction in databases?", "response": "A transaction is a sequence of operations performed as a single logical unit of work."}
+{"instruction": "What are ACID properties in databases?", "response": "ACID stands for Atomicity, Consistency, Isolation, and Durability, ensuring reliable database transactions."}
+{"instruction": "What is a view in SQL?", "response": "A view is a virtual table based on the result of a query."}
+{"instruction": "What is a stored procedure?", "response": "A stored procedure is a precompiled collection of SQL statements that can be executed as a program."}
+{"instruction": "What is database denormalization?", "response": "Denormalization is the process of introducing redundancy into a database to improve read performance."}
+{"instruction": "What is a schema in databases?", "response": "A schema defines the structure of a database, including tables, fields, and relationships."}
+{"instruction": "What is a data warehouse?", "response": "A data warehouse is a centralized repository for storing integrated data from multiple sources for analysis and reporting."}
+{"instruction": "What is sharding in databases?", "response": "Sharding is partitioning a database into smaller, faster, more easily managed pieces called shards."}
+{"instruction": "What is a NoSQL database?", "response": "A NoSQL database is a non-relational database designed for flexible, scalable data storage."}
+{"instruction": "What is a graph database?", "response": "A graph database uses graph structures with nodes and edges to represent and query relationships."}
+{"instruction": "What is database indexing trade-off?", "response": "The trade-off of indexing is faster queries at the cost of slower writes and more storage."}
+{"instruction": "What is replication in databases?", "response": "Replication is the process of copying and maintaining database objects in multiple locations for redundancy and reliability."}
+{"instruction": "What is a trigger in databases?", "response": "A trigger is a set of SQL instructions that automatically executes in response to certain events on a table."}
+{"instruction": "What is query optimization?", "response": "Query optimization is the process of selecting the most efficient way to execute a SQL query."}
+{"instruction": "What is database migration?", "response": "Database migration is the process of transferring data, schema, and configurations from one database to another."}
+{"instruction": "What is CAP theorem?", "response": "The CAP theorem states that a distributed system can only guarantee two of the following three: Consistency, Availability, and Partition tolerance."}
+{"instruction": "What is eventual consistency?", "response": "Eventual consistency means that all nodes in a distributed database will become consistent over time, but not immediately."}
+{"instruction": "What is OLTP?", "response": "OLTP (Online Transaction Processing) systems handle transactional data with frequent reads and writes."}
+{"instruction": "What is the difference between OLAP and OLTP?", "response": "OLAP is optimized for complex queries and analysis, while OLTP is optimized for fast transactions and updates."}
+{"instruction": "What is clustering in data mining?", "response": "Clustering groups data points based on similarity without predefined labels."}
+{"instruction": "What is hierarchical clustering?", "response": "Hierarchical clustering builds a tree-like structure of clusters, either bottom-up (agglomerative) or top-down (divisive)."}
+{"instruction": "What is FP-Growth algorithm?", "response": "FP-Growth is an efficient method for mining frequent itemsets using a tree structure."}
+{"instruction": "What is sequential pattern mining?", "response": "Sequential pattern mining discovers frequent subsequences in ordered data, such as customer purchase behavior over time."}
+{"instruction": "What is outlier detection?", "response": "Outlier detection identifies rare data points that differ significantly from the majority of the dataset."}
+{"instruction": "What is discretization in data mining?", "response": "Discretization converts continuous data into categorical values for easier analysis."}
+{"instruction": "What is CRISP-DM?", "response": "CRISP-DM is a structured methodology for planning and executing data mining projects."}
+{"instruction": "What is feature selection in data mining?", "response": "Feature selection identifies the most relevant features to improve model performance and reduce complexity."}
+{"instruction": "What is text mining?", "response": "Text mining extracts useful patterns, trends, and knowledge from unstructured text data."}
+{"instruction": "What is web mining?", "response": "Web mining applies data mining techniques to analyze web content, structure, and usage."}
+{"instruction": "What is data warehousing?", "response": "Data warehousing is the process of integrating and managing large volumes of structured data for reporting and analysis."}
+{"instruction": "What is anomaly detection?", "response": "Anomaly detection identifies unusual patterns or events in data that do not conform to expected behavior."}
+{"instruction": "What is supervised data mining?", "response": "Supervised data mining uses labeled datasets to train models for classification or regression tasks."}
+{"instruction": "What is unsupervised data mining?", "response": "Unsupervised data mining analyzes unlabeled data to discover hidden structures, such as clusters or associations."}
+{"instruction": "What is regression analysis?", "response": "Regression models relationships between dependent and independent variables to predict continuous outcomes."}
+{"instruction": "What is principal component analysis (PCA)?", "response": "PCA reduces dimensionality by transforming features into a smaller set of uncorrelated components."}
+{"instruction": "What is the difference between supervised and unsupervised learning?", "response": "Supervised learning uses labeled data to train models, while unsupervised learning finds hidden patterns without labels."}
+{"instruction": "What is reinforcement learning?", "response": "Reinforcement learning trains models through trial-and-error interactions with an environment, receiving rewards or penalties."}
+{"instruction": "What is overfitting?", "response": "Overfitting occurs when a model learns training data too well, including noise, and performs poorly on unseen data."}
+{"instruction": "What is gradient descent?", "response": "Gradient descent is an optimization algorithm that minimizes loss by updating weights in the opposite direction of the gradient."}
+{"instruction": "What is backpropagation?", "response": "Backpropagation is the algorithm for updating neural network weights by propagating errors backward."}
+{"instruction": "What is dropout in neural networks?", "response": "Dropout randomly disables neurons during training to reduce overfitting."}
+{"instruction": "What is batch gradient descent?", "response": "Batch gradient descent computes gradients using the entire dataset before updating weights."}
+{"instruction": "What is stochastic gradient descent (SGD)?", "response": "SGD updates weights for each training sample, making training faster but noisier."}
+{"instruction": "What is a transformer in deep learning?", "response": "A transformer is a neural architecture that uses self-attention to process sequences in parallel."}
+{"instruction": "What is parameter-efficient fine-tuning?", "response": "It is a fine-tuning method where only a small subset of parameters is updated, reducing computation and memory usage."}
+{"instruction": "What is knowledge distillation?", "response": "Knowledge distillation transfers knowledge from a large teacher model to a smaller student model."}
+{"instruction": "What is fine-tuning?", "response": "Fine-tuning adapts a pre-trained model to a smaller, task-specific dataset."}
+{"instruction": "What is transfer learning?", "response": "Transfer learning is reusing a pre-trained model for a new but related task."}
+{"instruction": "What is early stopping?", "response": "Early stopping halts training when validation performance no longer improves, preventing overfitting."}
+{"instruction": "What is a model checkpoint?", "response": "A checkpoint is a saved version of a model at a certain training stage, useful for resuming training or rollback."}
+{"instruction": "What is a token in NLP?", "response": "A token is a unit of text, such as a word or subword, used in language model processing."}
+{"instruction": "What is perplexity?", "response": "Perplexity measures how well a language model predicts a sample, with lower values indicating better performance."}
+{"instruction": "What is context length?", "response": "Context length is the maximum amount of text a model can process at once."}
+{"instruction": "What is an embedding?", "response": "An embedding is a dense vector representation of text that captures semantic meaning."}
+{"instruction": "What is a vector database?", "response": "A vector database stores embeddings and enables efficient similarity search among them."}
+{"instruction": "What is ChromaDB?", "response": "ChromaDB is a vector database for storing embeddings and retrieving the most relevant documents."}
+{"instruction": "What is LangChain?", "response": "LangChain is a framework for building applications powered by language models."}
+{"instruction": "What is instruction tuning?", "response": "Instruction tuning improves a model's ability to follow human-written instructions."}
+{"instruction": "What is knowledge grounding?", "response": "Knowledge grounding connects LLM outputs to external, reliable data sources for factual accuracy."}
+{"instruction": "What is LoRA?", "response": "LoRA (Low-Rank Adaptation) is a parameter-efficient fine-tuning method that updates rank-decomposed weight matrices."}
+{"instruction": "What is the difference between pretraining and fine-tuning?", "response": "Pretraining teaches general language patterns, while fine-tuning adapts the model to specific tasks."}
+{"instruction": "What is normalization in computer vision?", "response": "Normalization scales pixel values to a standard range, improving training stability and convergence."}
+{"instruction": "What is histogram equalization?", "response": "Histogram equalization improves image contrast by redistributing pixel intensity values."}
+{"instruction": "What is image denoising?", "response": "Image denoising removes unwanted noise from images to produce clearer representations."}
+{"instruction": "What is data annotation in computer vision?", "response": "Data annotation is the process of labeling images with bounding boxes, masks, or class labels for supervised training."}
+{"instruction": "What is active learning in computer vision?", "response": "Active learning selects the most informative unlabeled samples for annotation to reduce labeling effort."}
+{"instruction": "What is panoptic segmentation?", "response": "Panoptic segmentation combines semantic and instance segmentation by labeling every pixel in an image."}
+{"instruction": "What is SLAM?", "response": "SLAM (Simultaneous Localization and Mapping) is the process of building a map while simultaneously localizing the agent within it."}
+{"instruction": "What is edge detection?", "response": "Edge detection highlights object boundaries in an image by detecting sharp intensity changes."}
+{"instruction": "What are generative models in vision?", "response": "Generative models in vision can create new images, such as GANs and diffusion models."}
+{"instruction": "What are discriminative models in vision?", "response": "Discriminative models classify input data into categories, focusing on decision boundaries."}
+{"instruction": "What are diffusion models in computer vision?", "response": "Diffusion models generate images by progressively denoising random noise into structured outputs."}
+{"instruction": "What is explainability in computer vision?", "response": "Explainability methods such as Grad-CAM show which image regions influence model predictions."}
+{"instruction": "What is precision in detection tasks?", "response": "Precision measures how many detected objects are actually correct (true positives / predicted positives)."}
+{"instruction": "What is recall in detection tasks?", "response": "Recall measures how many actual objects were detected (true positives / actual positives)."}
+{"instruction": "What is a confusion matrix?", "response": "A confusion matrix is a table that summarizes classification performance by comparing predictions with ground truth."}
+{"instruction": "What is super-resolution in computer vision?", "response": "Super-resolution enhances the resolution of an image using deep learning techniques."}
+{"instruction": "What is optical flow?", "response": "Optical flow estimates motion of objects by analyzing changes between consecutive frames."}
+{"instruction": "What is object detection?", "response": "Object detection identifies and localizes multiple objects in an image using bounding boxes."}
+{"instruction": "What is semantic segmentation?", "response": "Semantic segmentation assigns a class label to each pixel in an image."}
+{"instruction": "What is instance segmentation?", "response": "Instance segmentation differentiates between individual objects, even if they belong to the same class."}
+{"instruction": "What is YOLO?", "response": "YOLO (You Only Look Once) is a real-time object detection algorithm."}
+{"instruction": "What is non-maximum suppression?", "response": "Non-maximum suppression removes overlapping bounding boxes, keeping only the most confident detections."}
+{"instruction": "What is a Vision Transformer (ViT)?", "response": "A Vision Transformer is a deep learning model that applies transformer architectures directly to image patches."}
+{"instruction": "What is transfer learning in vision?", "response": "Transfer learning reuses a model pre-trained on a large dataset for a new, related vision task."}
+{"instruction": "What is data augmentation?", "response": "Data augmentation generates variations of training images, such as flips or rotations, to improve generalization."}
+{"instruction": "What is feature extraction?", "response": "Feature extraction converts raw image data into informative representations for recognition tasks."}
+{"instruction": "What is convolution in CNNs?", "response": "Convolution applies filters to images to detect features such as edges or textures."}
+{"instruction": "What is max pooling in CNNs?", "response": "Max pooling reduces spatial dimensions by selecting the maximum value in each region of a feature map."}
+{"instruction": "What is backpropagation in neural networks?", "response": "Backpropagation updates weights by propagating the error backward through the network."}
+{"instruction": "What is supervised learning?", "response": "Supervised learning trains models using labeled data consisting of input-output pairs."}
+{"instruction": "What is unsupervised learning?", "response": "Unsupervised learning discovers hidden patterns in data without labeled outputs."}
+{"instruction": "What is reinforcement learning?", "response": "Reinforcement learning uses rewards and penalties to guide agents in sequential decision-making tasks."}
+{"instruction": "What is few-shot learning?", "response": "Few-shot learning enables models to learn tasks from only a few labeled examples."}
+{"instruction": "What is zero-shot learning?", "response": "Zero-shot learning enables models to perform tasks without any task-specific labeled examples."}
+{"instruction": "What is evaluation in machine learning?", "response": "Evaluation measures the performance of a trained model on test or validation data."}
+{"instruction": "What are evaluation metrics?", "response": "Evaluation metrics provide quantitative measures such as accuracy, precision, recall, or F1-score."}
+{"instruction": "What is inference in ML?", "response": "Inference is the process of using a trained model to make predictions on unseen data."}
+{"instruction": "What is pruning in neural networks?", "response": "Pruning removes unnecessary weights or neurons to reduce model size and speed up inference."}
+{"instruction": "What is an optimizer?", "response": "An optimizer updates neural network weights to minimize the loss function."}
+{"instruction": "What is Adam optimizer?", "response": "Adam is an optimizer that combines momentum and adaptive learning rates for efficient training."}
+{"instruction": "What is a dataset in ML?", "response": "A dataset is a structured collection of data used for training or evaluating models."}
+{"instruction": "What is an epoch?", "response": "An epoch is one full pass of the training dataset through the learning algorithm."}
+{"instruction": "What is a learning rate scheduler?", "response": "A learning rate scheduler adjusts the learning rate during training to improve convergence."}
+{"instruction": "What is model checkpointing?", "response": "Model checkpointing saves intermediate versions of a model during training for recovery or evaluation."}
+{"instruction": "What is knowledge grounding in LLMs?", "response": "Knowledge grounding links model outputs to reliable external data sources for factual accuracy."}
+{"instruction": "What is instruction tuning?", "response": "Instruction tuning adapts models to better follow human-written instructions."}
+{"instruction": "What are multilingual embeddings?", "response": "Multilingual embeddings allow semantic similarity across multiple languages for cross-lingual retrieval."}
+{"instruction": "What is context window in LLMs?", "response": "Context window is the maximum span of text a language model can process at once."}
+{"instruction": "What is instruction-response data?", "response": "Instruction-response data consists of prompts and their corresponding outputs for training models."}
